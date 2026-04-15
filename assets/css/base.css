@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+reset
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+base style
+*/
+
+:root {
+    --text-color: #333;
+    --primary-color: #00acee;
+    --sub-color: #fff;
+    --border-color: #333;
+    --base-space: 1rem;
+    --container-width: 1200px;
+}
+
+body {
+    color: var(--text-color);
+    min-width: 320px;
+}

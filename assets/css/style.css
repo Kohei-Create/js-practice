@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import url(base.css);
+
+section {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    width: fit-content;
+}
+
+.sub-heading {
+    text-align: center;
+}
+
+table,p {
+    padding: 0 1rem;
+}
+
+table,h3,
+.sub-heading,
+p,dd {
+    margin: 0 auto 1rem;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--sub-color);
+}
+
+th,td {
+    text-align: left;
+    border: 1px solid var(--border-color);
+    padding: 10px 1rem;
+}
+
+dd {
+    text-align: center;
+}
+
+.td-protocol {
+    display: flex;
+    flex-direction: column;
+}
+
+.td-protocol span {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    border-bottom: 1px solid var(--border-color);
+}
+
+@media screen and (max-width:640px) {
+    
+    .math {
+        overflow-x: auto;
+    }
+
+    .math table {
+        min-width: 500px;
+    } 
+
+}
