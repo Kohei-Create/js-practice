@@ -61,6 +61,12 @@ dd {
     border-bottom: 1px solid var(--border-color);
 }
 
+time {
+    color: var(--text-color);
+    text-align: center;
+    margin: 0 auto;
+}
+
 @media screen and (max-width:640px) {
     
     .math {
@@ -71,8 +77,4 @@ dd {
         min-width: 650px;
     } 
 
-}
-
-time {
-    color: var(--text-color);
 }
