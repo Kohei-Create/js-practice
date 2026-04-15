@@ -30,3 +30,8 @@ body {
     min-width: 320px;
     font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
+
+main {
+    min-height: 100vh;
+    padding: 5rem 0 0;
+}
