@@ -28,4 +28,5 @@ base style
 body {
     color: var(--text-color);
     min-width: 320px;
+    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
