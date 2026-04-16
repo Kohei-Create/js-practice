@@ -23,15 +23,32 @@ base style
     --border-color: #333;
     --base-space: 1rem;
     --container-width: 1200px;
+    --bg-white: #fff;
+    --header-height: 72px;
 }
 
 body {
     color: var(--text-color);
     min-width: 320px;
     font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    line-height: 1.5;
 }
 
 main {
     min-height: 100vh;
     padding: 5rem 0 0;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a,span,
+label,img {
+    display: block;
+}
+
+ul {
+    list-style: none;
 }
