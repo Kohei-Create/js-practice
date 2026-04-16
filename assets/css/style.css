@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 @import url(base.css);
+@import url(header.css);
+@import url(footer);
 
 section {
     max-width: var(--container-width);
