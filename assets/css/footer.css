@@ -1,0 +1,134 @@
+.footer {
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 1600px;
+    text-align: left;
+}
+
+.central {
+    margin:  0 auto;
+    align-items: center;
+}
+
+.foot-top-link {
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.foot-link {
+    font-size: 17px;
+    padding: 1rem 0;
+}
+
+.foot-top-link,
+.foot-link {
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot-top-link::after,
+.foot-link::after {
+    background-color: currentColor;
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s ease;
+    position: absolute;
+}
+
+.foot-top-link:hover::after,
+.foot-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.map {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.foot-list1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.x-logo {
+    filter: grayscale(1) invert(1);
+    width: 15px;
+    height: auto;
+}
+
+.gh-logo {
+    width: 15px;
+    height: auto;
+}
+
+.copy {
+    margin: 0 auto 1rem;
+    padding: 1rem 1rem 0;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+@media screen and (min-width:768px) {
+    
+.footer {
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    align-items: flex-start;
+}
+
+.foot-top-link {
+    padding: 1rem 0 0;
+}
+
+.map {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.foot-list,
+.foot-list1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.foot-item {
+    width: fit-content;
+}
+
+.foot-link {
+    padding: 1rem 0 0;
+    font-size: 20px;
+}
+
+.copy {
+    margin-top: 1rem;
+}
+
+}
