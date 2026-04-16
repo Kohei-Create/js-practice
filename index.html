@@ -15,10 +15,12 @@
 <body>
     <main>
         <section class="point">
-            <p>日付 : <time datetime="2026-04-15" id="current-year"></time></p>
-            <p>時刻 : <time datetime="T00:00:00" id="current-time"></time></p>
+            <div class="t-y-block">
+                <p>日付 : <time datetime="2026-04-15" id="current-year"></time></p>
+                <p>時刻 : <time datetime="T00:00:00" id="current-time"></time></p>
+            </div>
         </section>
-        <section>
+        <section class="array">
             <h3>Arrayオブジェクト（配列）</h3>
             <table>
                 <thead>
@@ -65,7 +67,7 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <section class="date">
             <h3>Dateオブジェクト（日付）</h3>
             <table>
                 <thead>
@@ -110,7 +112,7 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <section class="form">
             <h3>
                 formオブジェクト、elementオブジェクト
             </h3>
@@ -120,8 +122,6 @@
                 formオブジェクトは&lt;&nbsp;form&gt;タグ、elementオブジェクトはフォームの部品に対応しています。
             </p>
             <dd>formオブジェクトのプロパティ、メソッド</dd>
-        </section>
-        <section class="form">
             <table>
                 <thead>
                     <tr>
@@ -152,7 +152,7 @@
                     </tr>
                 </tbody>
             </table>
-            <table class="float">
+            <table>
                 <thead>
                     <tr>
                         <th>メソッド</th>
@@ -170,8 +170,8 @@
                     </tr>
                 </tbody>
             </table>
+            <dd>elementオブジェクトのプロパティ、メソッド</dd>
         </section>
-        <dd>elementオブジェクトのプロパティ、メソッド</dd>
         <section class="element">
             <table>
                 <thead>
@@ -227,7 +227,7 @@
                     </tr>
                 </tbody>
             </table>
-            <table class="flex_box">
+            <table>
                 <thead>
                     <tr>
                         <th>メソッド</th>
@@ -339,8 +339,8 @@
 
             </table>
         </section>
-        <section>
-            <p class="sub-heading">■比較演算子</p>
+        <section class="sub-heading">
+            <p>■比較演算子</p>
             <table>
                 <thead>
                     <tr>
@@ -379,8 +379,8 @@
                 </tbody>
             </table>
         </section>
-        <section>
-            <p class="sub-heading">■論理演算子</p>
+        <section class="sub-heading">
+            <p>■論理演算子</p>
             <table>
                 <thead>
                     <tr>
