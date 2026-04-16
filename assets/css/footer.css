@@ -12,16 +12,6 @@
     align-items: center;
 }
 
-.foot-top-link {
-    font-size: 20px;
-    padding: 1rem 0;
-}
-
-.foot-link {
-    font-size: 17px;
-    padding: 1rem 0;
-}
-
 .foot-top-link,
 .foot-link {
     width: fit-content;
@@ -88,6 +78,16 @@
     padding: 1rem 1rem 0;
     text-align: center;
     border-top: 1px solid #333;
+}
+
+.foot-top-link {
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.foot-link {
+    font-size: 17px;
+    padding: 1rem 0;
 }
 
 @media screen and (min-width:768px) {
