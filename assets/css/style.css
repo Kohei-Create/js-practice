@@ -8,10 +8,6 @@ section {
     padding: 1rem;
 }
 
-table {
-    border-collapse: collapse;
-}
-
 h3,dd,
 .sub-heading {
     text-align: center;
@@ -36,15 +32,15 @@ p {
     padding: 0;
 }
 
-.array table,
-.date table,
-.form table,
-.element table,
-.math table,
-.sub-heading table {
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
     margin: 1rem auto;
     min-width: 650px;
-    overflow-x: auto;
 }
 
 th {
