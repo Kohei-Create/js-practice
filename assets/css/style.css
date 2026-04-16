@@ -5,33 +5,46 @@
 section {
     max-width: var(--container-width);
     margin: 0 auto;
+    padding: 1rem;
 }
 
 table {
     border-collapse: collapse;
 }
 
-h3 {
+h3,dd,
+.sub-heading {
     text-align: center;
+    margin: 0 auto;
 }
 
 p {
+    margin: 1rem auto;
+    padding: 1rem;
     text-align: left;
     width: fit-content;
 }
 
-.sub-heading {
-    text-align: center;
+.t-y-block {
+    text-align: left;
+    margin: 0 auto;
 }
 
-table,p {
-    padding: 0 1rem;
+.t-y-block p {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
 }
 
-table,h3,
-.sub-heading,
-p,dd {
-    margin: 0 auto 1rem;
+.array table,
+.date table,
+.form table,
+.element table,
+.math table,
+.sub-heading table {
+    margin: 1rem auto;
+    min-width: 650px;
+    overflow-x: auto;
 }
 
 th {
@@ -45,10 +58,6 @@ th,td {
     padding: 10px 1rem;
 }
 
-dd {
-    text-align: center;
-}
-
 .td-protocol {
     display: flex;
     flex-direction: column;
@@ -59,22 +68,4 @@ dd {
     padding-bottom: 5px;
     width: fit-content;
     border-bottom: 1px solid var(--border-color);
-}
-
-time {
-    color: var(--text-color);
-    text-align: center;
-    margin: 0 auto;
-}
-
-@media screen and (max-width:640px) {
-    
-    .math {
-        overflow-x: auto;
-    }
-
-    .math table {
-        min-width: 650px;
-    } 
-
 }
