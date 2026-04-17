@@ -3,3 +3,61 @@
 @import url(base.css);
 @import url(header.css);
 @import url(footer.css);
+
+.top-txt {
+    text-align: center;
+    margin: 1rem auto;
+    width: fit-content;
+    padding: 0 1rem .5rem;
+    border-bottom: 1px solid #333;
+}
+
+.txt-block {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.top-img {
+    width: 50px;
+    height: auto;
+}
+
+.link-txt {
+    font-size: clamp(20px, 5vw, 25px);
+}
+
+#hero {
+    background-color: #1b5cb1;
+    min-height: 20vh;
+}
+
+.hero-top-txt {
+    color: var(--sub-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: clamp(15px, 5vw, 20px);
+}
+
+.img-box {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.ht-img {
+    width: 40px;
+    height: auto;
+}
+
+.cs-img {
+    width: 40px;
+    height: auto;
+}
+
+.js-img {
+    width: 40px;
+    height: auto;
+}
