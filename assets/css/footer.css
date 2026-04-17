@@ -4,6 +4,7 @@
     flex-direction: column-reverse;
     width: 100%;
     max-width: 1600px;
+    margin: 0 auto;
     text-align: left;
 }
 
@@ -98,6 +99,7 @@
 @media screen and (min-width:768px) {
     
 .footer {
+    width: 100%;
 }
 
 .central {
