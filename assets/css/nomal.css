@@ -29,6 +29,20 @@
     font-size: clamp(20px, 5vw, 25px);
 }
 
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sub-txt-box {
+    width: 100%;
+    max-width: 720px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 #hero {
     background-color: #1b5cb1;
     min-height: 20vh;

@@ -25,6 +25,9 @@ base style
     --container-width: 1200px;
     --bg-white: #fff;
     --header-height: 72px;
+    --border-color: #ddd;
+    --shadow-main-color: rgba(0, 0, 0, .14);
+    --shadow-sub-color: rgba(0, 0, 0, .2);
 }
 
 body {
