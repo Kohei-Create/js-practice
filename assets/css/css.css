@@ -10,8 +10,8 @@ body {
 
 .container {
     background-color: var(--bg-white);
-    margin: 0 auto;
-    padding: 8vh 1rem 0;
+    margin: 0 auto 2rem;
+    padding: 8vh 1rem 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
