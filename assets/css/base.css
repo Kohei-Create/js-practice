@@ -19,6 +19,7 @@ base style
 :root {
     --text-color: #333;
     --primary-color: #00acee;
+    --accent-color: #1b5cb1;
     --sub-color: #fff;
     --border-color: #333;
     --base-space: 1rem;
