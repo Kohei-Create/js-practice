@@ -67,3 +67,21 @@ th,td {
     width: fit-content;
     border-bottom: 1px solid var(--border-color);
 }
+
+pre {
+    background-color: #efefef;
+    margin: 2rem auto;
+    width: 90%;
+    padding: 0 1rem;
+    height: auto;
+    border: 1px solid var(--text-color);
+    align-items: stretch;
+    text-align: left;
+}
+
+code {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
