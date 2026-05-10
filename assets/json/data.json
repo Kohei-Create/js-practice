@@ -1,9 +1,9 @@
 {
     "properties":[
         {
-            "id": "",
-            "name": "",
-            "category": "",
+            "id": "margin",
+            "name": "margin",
+            "category": "CSS / margin",
             "description": "",
             "code_sample": "",
             "demo_url": ""
